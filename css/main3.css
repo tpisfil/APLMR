@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin-top: 0px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: rgb(153,11,7);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+header img {
+    height: 150px;
+}
+
+nav {
+    background-color: rgb(153,11,7);
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: large;
+}
+
+h1 {
+    font-size: 43px; 
+    text-align: center;
+    color: white;
+}
+
+.lawnmowerBackground {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: .5;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    height: 75%;
+  }
+
+.centered {
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 74px;
+  }
+
+#aboutUs {
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 175px;
+    margin-left: 175px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 75px;   
+    padding-right: 75px;
+    text-align: center;
+    color: rgb(153,11,7);
+    font-size: 20px;
+}
+
+#lessMarginForH1 {
+    margin-bottom: 10px;
+    color: rgb(153,11,7);
+}
+
+#aboutUsJustified {
+    text-align: justify;
+}
+
+.section {
+    color: white;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 175px;
+    margin-left: 175px;
+}
+
+hr {
+    background-color: white;
+}
+
+.noSplit {
+    text-align: center;
+    width: 100%;
+}
+
+.leftSplit {
+    width: 48;
+    float: left;
+    text-align: center;
+}
+
+.rightSplit {
+    width: 48%;
+    float: right;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+.centeredP {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+.leftSplit40 {
+    width: 41%;
+    float: left;
+    text-align: center;
+}
+
+.rightSplit40 {
+    width: 41%;
+    float: right;
+    text-align: center;
+}
+
+#footer {
+    color: white;
+    font-size: 13px;
+}
+
+.imgBorder
+{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.leftSplit30 {
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-left: 4em;
+}
+
+.rightSplit70 {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
